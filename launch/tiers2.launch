@@ -1,0 +1,6 @@
+<launch>
+  <arg name="config_yaml" value="$(find tiers1)/launch/tiers2_config.yaml" />
+  <node pkg="tiers2" type="tiers2" name="tiers2" output="screen">
+    <rosparam command="load" file="$(arg config_yaml)" />
+  </node>
+</launch>

@@ -1,0 +1,11 @@
+
+MAX_SPEED : 1.5
+MIN_SPEED : 0
+GPS_TOPIC_NAME : "tiers2/gps"
+IMU_TOPIC_NAME : "tiers2/imu"
+VELOCITY_TOPIC_NAME : "tiers2/robot_velocity"
+# x goal, y goal , z goal , yaw(0~360) and repeat
+POSITION_YAW_LIST : [1,1,1,50,2,2,2,100,3,3,3,200]
+
+
+
